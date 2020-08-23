@@ -4378,3 +4378,4 @@
 2020-08-23T21:23:53.878Z [grades-control-api] info: GET /grade
 2020-08-23T21:24:13.204Z [grades-control-api] info: GET /grade
 2020-08-23T21:24:18.352Z [grades-control-api] info: PUT /grade - " {"id":8,"student":"John Petrucci","subject":"02 - Node","type":"Challenge","value":20,"timestamp":"2020-08-23T21:24:18.352Z","studentLowerCase":"john petrucci","subjectLowerCase":"02 - node","typeLowerCase":"challenge","isDeleted":false}
+2020-08-23T21:27:28.299Z [grades-control-api] info: GET /grade

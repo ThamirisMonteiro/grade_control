@@ -27,7 +27,7 @@ export default function ModalGrade({ onSave, onClose, selectedGrade }) {
   useEffect(() => {
     const { minValue, maxValue } = gradeValidation;
 
-    if (gradeValue < minValue || gradeValue > maxValue) {
+    if (gradeValue < minValue || gradeValue >= maxValue) {
       setErrorMessage(`Value must be between ${minValue} and ${maxValue}`);
       return;
     }
